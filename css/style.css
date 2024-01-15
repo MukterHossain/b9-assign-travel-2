@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Mulish', sans-serif;
+    width: 85%;
+    margin: 0 auto;
+    background:#fff;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100px;
+}
+
+/* Share Section */
+
+
+
+
+
+
+
+/* Header Section */
+.header{
+    margin-top: 3.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-left{
+    display: flex;
+   align-items: center;
+}
+.header-left img{
+    margin-right: 15px;
+}
+.header-left h2{
+    font-size: 2rem;
+    font-weight: 800;
+    color: #131318;
+}
+.header-left h2 span{
+    color: #FF5400;
+}
+.header-right{}
+.header-right ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.header-right ul li{
+    margin-left: 2rem;
+}
+.header-right ul li a{
+    font-size: 18px;
+    font-weight: 800;
+    color: #424247;
+}
+.header-right ul li a:hover{
+    color: #FF5400;
+}
+
+.header-bar{
+    display: none;
+}
+.header-bar i{
+    color:#424247;
+    font-size: 25px;
+}
+
+
+
+
+/* Explore Section */
+.explore{
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    margin-top: 60px;
+    
+}
+.explore-overlay{
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.1) 100%);
+    padding: 100px 0;
+}
+.explore-title{
+    width: 60%;
+    margin: 0 auto;
+   
+}
+.explore-title h1{
+    font-size: 4rem;
+    color: #fff;
+    font-weight: 800;
+    text-align: center;
+}
+.explore-title p{
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 400px;
+    padding: 22px 5px;
+    text-align: center;
+}
+.explore-button{
+    width: 65%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+.buttone-1{
+    width: 25%;
+    background: #fff;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.buttone-1 button{
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 15px;
+    text-align: left;
+    font-weight: 400;
+    border: none;
+}
+.buttone-2{
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    background: #fff;
+    padding: 10px;
+    border-radius: 8px;
+}
+.buttone-2 button{   
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 15px;
+    text-align: left;
+    font-weight: 400;
+    border: none;
+}
+
+.buttone-3{
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    background: #fff;
+    padding: 10px 15px;
+    border-radius: 8px;
+    background: #FF5400;
+}
+.buttone-3 button{
+    color:#fff;
+    font-size: 15px;
+    text-align: left;
+    font-weight: 400;
+    border: none;
+    background-color: transparent;
+}
+.buttone-3 i{
+    color:#fff;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    
+    /* Header Section */
+    .header-bar{
+        display: block;
+    }
+    .header-right ul{
+        display: none;
+    }
+
+
+
+
+    /* Explore Section */
+    .explore-title{
+        width: 65%;
+        margin: 0 auto;
+       
+    }
+    .explore-title h1{
+        font-size: 3.1rem;
+    }
+    .explore-title p{
+        font-size: 1rem;
+        padding: 22px 5px;
+
+    }
+    .explore-button{
+        width: 65%;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .buttone-1, .buttone-2{
+        width: 100%;
+
+    }
+    .buttone-3{
+        width: 100%;
+        justify-content: center;
+        gap: 20px;
+        align-items: center;
+    }
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    
+    /* Header Section */
+    .header-bar{
+        display: block;
+    }
+    .header-right ul{
+        display: none;
+    }
+    .header-left h2{
+        font-size: 1.8rem;
+    }
+
+
+
+
+     /* Explore Section */
+     .explore-title{
+        width: 75%;
+        margin: 0 auto;
+       
+    }
+    .explore-title h1{
+        font-size: 2.1rem;
+    }
+    .explore-title p{
+        font-size: 1rem;
+    }
+    .explore-button{
+        width: 80%;
+        flex-wrap: wrap;
+    }
+    .buttone-1, .buttone-2{
+        width: 100%;
+
+    }
+    .buttone-3{
+        width: 100%;
+        justify-content: center;
+        gap: 20px;
+        align-items: center;
+    }
+
+
+    
+
+
+
+
+
+}
