@@ -13,9 +13,7 @@ body{
     margin: 0 auto;
     background:#fff;
 }
-ul{
-    list-style: none;
-}
+
 a{
     text-decoration: none;
 }
@@ -25,7 +23,29 @@ img{
 
 /* Share Section */
 
+.title-text{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.primary-text{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+}
 
+.btn-primary{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    padding: 10px 25px;
+    font-weight: 800;
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+}
 
 
 
@@ -58,6 +78,7 @@ img{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    list-style: none;
 }
 .header-right ul li{
     margin-left: 2rem;
@@ -180,6 +201,39 @@ img{
 
 
 
+/* Our Section */
+.our{
+    margin: 100px 0 ;
+    display: flex;
+    justify-content: space-between;
+}
+.our-left{
+    width: 46%;
+}
+.our-left-title{}
+.our-left-list{
+    padding: 10px 0 10px 20px;
+}
+.our, .primary-text{
+    padding: 10px 0;
+}
+.our-left-list ul{
+
+}
+.our-right{
+    width: 46%;
+}
+.our-right img{
+    width: 100%;
+    height: 100%;
+}
+.our button{
+    margin-top: 20px;
+}
+
+
+
+
 
 
 
@@ -231,6 +285,23 @@ img{
         gap: 20px;
         align-items: center;
     }
+
+
+
+
+    /* Our Section */
+.our{
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.our-left{
+    width: 100%;
+}
+
+.our-right{
+    width: 100%;
+}
+
 
 
 
@@ -293,7 +364,26 @@ img{
 
 
     
+        /* Our Section */
+    .our{
+        flex-wrap: wrap;
+        gap: 25px;
+        margin: 50px 0;
+    }
+    .our-left{
+        width: 100%;
+    }
 
+    .our-right{
+        width: 100%;
+    }
+    .our-right img{
+        width: 100%;
+        height: 100%;
+    }
+    .our button{
+        margin-top: 20px;
+    }
 
 
 
