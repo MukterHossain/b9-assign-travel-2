@@ -25,7 +25,7 @@ img{
 
 .title-text{
     color: #131318;
-    font-size: 40px;
+    font-size: 2.4rem;
     font-weight: 800;
 }
 .primary-text{
@@ -33,6 +33,12 @@ img{
     font-size: 16px;
     font-weight: 400;
     line-height: 26px; 
+}
+.secondary-text{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
 }
 
 .btn-primary{
@@ -233,6 +239,85 @@ img{
 
 
 
+/* Choose Section */
+.choose{
+    margin: 100px 0;
+}
+.choose-title{
+    text-align: center;
+    width: 65%;
+    margin: 25px auto;
+}
+.choose-gallery{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+.choose-img-1{
+    width: 48%;
+    position: relative;
+}
+.choose-img-2{
+    width: 48%;
+    position: relative;
+}
+.choose-img-3{
+    width: 29%;
+    position: relative;
+}
+.choose-img-4{
+    width: 42%;
+    position: relative;
+}
+.choose-img-5{
+    width: 24%;
+    position: relative;
+}
+.choose-img-6{
+    width: 40%;
+    position: relative;
+}
+.choose-img-7{
+    width: 57%;
+    position: relative;
+}
+.choose-gallery img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.choose-img-1 h6, 
+.choose-img-2 h6, 
+.choose-img-3 h6, 
+.choose-img-4 h6,
+.choose-img-5 h6,
+.choose-img-6 h6,
+.choose-img-7 h6{
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -301,6 +386,39 @@ img{
 .our-right{
     width: 100%;
 }
+
+
+    /* Choose Section */
+    .choose{
+        margin: 100px 0;
+    }
+    .choose-title{
+        width: 65%; 
+    }
+    .choose-gallery{
+        flex-wrap: wrap;         
+    }
+    .choose-img-1{
+        width: 100%;
+    }
+    .choose-img-2{
+        width: 100%;
+    }
+    .choose-img-3{
+        width: 100%;
+    }
+    .choose-img-4{
+        width: 100%;
+    }
+    .choose-img-5{
+        width: 100%;
+    }
+    .choose-img-6{
+        width: 100%;
+    }
+    .choose-img-7{
+        width: 100%;
+    }
 
 
 
@@ -383,6 +501,44 @@ img{
     }
     .our button{
         margin-top: 20px;
+    }
+
+
+
+
+    /* Choose Section */
+    .choose{
+        margin: 60px 0;
+    }
+    .choose-title{
+        width: 80%; 
+    }
+    .choose-title h3{
+        font-size: 1.6rem;
+    }
+    .choose-gallery{
+        flex-wrap: wrap;         
+    }
+    .choose-img-1{
+        width: 100%;
+    }
+    .choose-img-2{
+        width: 100%;
+    }
+    .choose-img-3{
+        width: 100%;
+    }
+    .choose-img-4{
+        width: 100%;
+    }
+    .choose-img-5{
+        width: 100%;
+    }
+    .choose-img-6{
+        width: 100%;
+    }
+    .choose-img-7{
+        width: 100%;
     }
 
 
